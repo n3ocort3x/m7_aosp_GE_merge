@@ -2735,5 +2735,11 @@ config MSM_CPU_PWRCTL
 	  stand alone power collapse operation. Selecting this option
 	  ensures that they are always off.
 
+config USERSPACE_VOLTAGE_CONTROL
+	bool "Enable Userspace CPU Voltage Control"
+	default y
+	help
+	userspace voltage control
+
 endif
 
