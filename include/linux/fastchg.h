@@ -1,5 +1,5 @@
 /*
- * Author: Chad Froebel <chadfroebel@gmail.com>
+ * Author: Peter Hofinger <peter.hofinger@gmail.com>
  *
  * This software is licensed under the terms of the GNU General Public
  * License version 2, as published by the Free Software Foundation, and
@@ -15,10 +15,9 @@
 #ifndef _LINUX_FASTCHG_H
 #define _LINUX_FASTCHG_H
 
-extern int force_fast_charge;
+extern int fast_charge;
 
-#define FAST_CHARGE_DISABLED 0	/* default */
+#define FAST_CHARGE_DISABLED 0	
 #define FAST_CHARGE_FORCE_AC 1
 
 #endif
-
