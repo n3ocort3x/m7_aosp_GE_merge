@@ -93,4 +93,3 @@ void force_fast_charge_exit(void)
 module_init(force_fast_charge_init);
 module_exit(force_fast_charge_exit);
 
-
