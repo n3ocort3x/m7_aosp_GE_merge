@@ -323,12 +323,12 @@ static int __cpuinit msm_cpufreq_init(struct cpufreq_policy *policy)
 	if (cpufreq_frequency_table_cpuinfo(policy, table)) {
 #ifdef CONFIG_MSM_CPU_FREQ_SET_MIN_MAX
 		policy->min = 84000;
-   		policy->max = 1728000;
+   		policy->max = 1836000;
 #endif
 	}
 #ifdef CONFIG_MSM_CPU_FREQ_SET_MIN_MAX
         policy->cpuinfo.min_freq = 84000;
-        policy->cpuinfo.max_freq = 1728000;
+        policy->cpuinfo.max_freq = 1836000;
 #endif
 
 #ifdef CONFIG_ARCH_APQ8064
